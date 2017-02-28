@@ -10,7 +10,17 @@ The initial commit is the generated skeleton app with all the dependencies with 
 
 The second commit is the same skeleton loading those bundles over-the-wire from Firebase at https://console.firebase.google.com/project/pyro-dd68b
 
-## Usage
+## Testing the Loader
+
+No local server is needed. Simply open index.html in your browser.
+
+    open index.html
+
+`localStorage` will be blocked by Chrome if you have "block third party apps from setting cookies and data".
+
+See [this docs](https://www.chromium.org/for-testers/bug-reporting-guidelines/uncaught-securityerror-failed-to-read-the-localstorage-property-from-window-access-is-denied-for-this-document) for turning that off. Make sure to turn it back on when you're done.
+
+## Aurelia CLI Usage
 
 ### Preparation
 
